@@ -5,7 +5,7 @@ export interface AboutMe {
   description: string;
   email: string;
   imageUrl?: string;
-  blogUrl?: string;
+  soundcloudUrl?: string;
   cvUrl?: string;
   googleScholarUrl?: string;
   twitterUsername?: string;
@@ -18,22 +18,22 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Shrinidhi Mahesh",
+  title: "Masters of Science - Electrical and Computer Engineering (Machine Learning and Data Science)",
+  institution: "University of Southern California",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "I'm a first-year <a href='https://usc.edu/'>MS candidate</a> working at the intersection of music and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
+  email: "shrinidh@usc.edu",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "https://drive.google.com/uc?export=view&id=1rkHAdREEdD8jkmgUrY58amwcmuAz_24V",
+  googleScholarUrl: "https://scholar.google.com/citations?hl=en&user=Ykjb4AMAAAAJ",
+  githubUsername: "shrinidhimahesh2001",
+  linkedinUsername: "shrinidhi-mahesh-7680b41a5",
+  twitterUsername: "shrinimahesh",
+  soundcloudUrl: "https://soundcloud.com/shrinidhimahesh",
+  cvUrl: "https://drive.google.com/file/d/1yh3GFziJ23RSjsmlZDDEydyyNAO6E7cS/view?usp=sharing",
+  institutionUrl: "https://usc.edu/",
   // altName: "",
   // secretDescription: "I like dogs.",
 };
